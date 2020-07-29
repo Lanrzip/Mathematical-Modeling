@@ -1,0 +1,17 @@
+digraph {
+	node [shape=box]
+	edge [labeldistance=10.5]
+	0 [label="Has feathers?"]
+	1 [label="Can fly?"]
+	2 [label="Has fins?"]
+	3 [label=Hawk]
+	4 [label=Penguin]
+	5 [label=Dolphin]
+	6 [label=Bear]
+	0 -> 1 [label=True]
+	0 -> 2 [label=False]
+	1 -> 3 [label=True]
+	1 -> 4 [label=False]
+	2 -> 5 [label=True]
+	2 -> 6 [label=False]
+}
